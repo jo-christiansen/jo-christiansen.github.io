@@ -8,42 +8,64 @@
 </head>
 <body>
 
-<label id="hamburger" for="main-menu">
-    <span></span>
-    <span></span>
-    <span></span>
-</label>
-    
-    <!-- Lateral Menu Trigger -->
-    <input type="checkbox" id="main-menu" class="from-left">
-    <!-- Lateral Menu -->
-    <div>
-      <ul>
-        <li>Home</li>
-        <li>Recipes</li>
-        <li>Favorites</li>
-        <li>My food</li>
-        <li>Shopping list</li>
-        <li>About Us</li>
-      </ul>
-    </div>
-    
-    <!-- Page overlay used to close the menu -->
-    <label for="main-menu"></label>
 
-<button type="submit" class="button-search"><img src="https://www.downloadclipart.net/large/magnifying-glass-png-no-background.png" alt="" width="15px"></button>
-<input type="texte" id="recipeSearch" name="recipeSearch" placeholder="Find a recipe..."></input>
+<!-- Menu start-->
+
+<!-- <span style="font-size:30px;cursor:pointer;color:#f4f7fe;" onclick="openNav()">&#9776; CheapEats</span>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="/index.html">Home</a>
+        <a href="/recipe.html">Recipes</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="my_food.html">My food</a>
+        <a href="shopping_list.html">Shopping List</a>
+        <a href="/about.html">About Us</a>
+      </div>
+    </div> -->
+
+    <div class="sidenav">
+      <a href="/index.html"><img src="Images/logo_CheapEats.png" alt="logo CheapEats" width="120px"></a>
+      <a href="/recipe.html">Recipes</a>
+      <a href="favorites.html">Favorites</a>
+      <a href="my_food.html">My food</a>
+      <a href="shopping_list.html">Shopping List</a>
+      <a href="/about.html" id="about-menu">About Us</a>
+    </div>
+
+<div class="main">
+
+<!-- The form / clarify this .php -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <form class="example" action="">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
 
 <h2>Categories</h2>
 
 <div class="flex-container">
-    <div class="Categories"><p>Breakfast</p></div>
-    <div class="Categories"><p>Starter</p></div>
-    <div class="Categories"><p>Main Dish</p></div>
-    <div class="Categories"><p>Snacks</p></div>
+    <div class="flex-item-breakfast"><p>Breakfast</p></div>
+    <div class="flex-item-starter"><p>Starter</p></div>
+    <div class="flex-item-main"><p>Main Dish</p></div>
+    <div class="flex-item-snacks"><p>Snacks</p></div>
 </div>
 
 <h2>How to get started</h2>
 
+<div class="flex-container">
+    <div class="flex-item-1"><h3>1. Find a recipe</h3>
+    <p>You can search for a recipe usinng the search bar.</p>
+    </div>
+    <div class="flex-item-2"><h3>2. Check your ingredients</h3>
+    <p>You can thick off the ingredients that you need and they will shou up in your Shopping list.</p>
+    </div>
+    <div class="flex-item-3"><h3>3. Check the best price</h3>
+    <p>You can search for a recipe usinng the search bar.</p>
+    </div>
+</div>
+</div>
 </body>
 </html>
+
