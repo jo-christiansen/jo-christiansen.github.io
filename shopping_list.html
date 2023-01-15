@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+
+<!-- Menu start-->
+
+<div class="sidenav">
+  <a href="/index.html"><img src="Images/logo_CheapEats.png" alt="logo CheapEats" width="120px"></a>
+  <a href="/recipe.html">Recipes</a>
+  <a href="favorites.html">Favorites</a>
+  <a href="my_food.html">My food</a>
+  <a href="shopping_list.html">Shopping List</a>
+  <a href="/about.html" id="about-menu">About Us</a>
+</div>
+
+<div class="main">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+  
+<!-- Menu end-->
+
+    <h2>Shopping List</h2>
+    <!-- Put the number of item in the list followed by item -->
+    <h4>X items</h4>
+
+    <!-- put an undorred list that is generated from an array / maybe should be done through JS 
+    IDEALLY - each item can be clickable -->
+    <div>
+        <form action="">
+            <div><input type="checkbox" class="checkbox-ingredients"><label>Item #1 - Quantity - Price</label></div>
+            <div><input type="checkbox" class="checkbox-ingredients"><label>Item #2 - Quantity - Price</label></div>
+            <div><input type="checkbox" class="checkbox-ingredients"><label>Item #3 - Quantity - Price</label></div>
+            <div><input type="checkbox" class="checkbox-ingredients"><label>Item #4 - Quantity - Price</label></div>
+        </div>
+
+
+<!-- ==> counting number of items in list
+  
+  <script>
+        for (let i = 0; i < myList.length; i++) {
+              ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"}
+</script>  
+-->
+</div>
+</body>
+</html>
