@@ -1,0 +1,209 @@
+body {
+    background-color: #f4f7fe;
+    padding: 8px;
+}
+
+html, body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+h2 {
+    /*position: absolute;*/
+    color: #7B766E;
+    size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+p {
+    padding-left: 160px;
+}
+
+input {
+    position: fixed;
+    left: 179px;
+    top: 37px;
+    width: 30%;
+    height: 20px;
+    background-color: rgba(228, 204, 157, 0.15);
+    border-left: 0px;
+    border-radius: 0 20px 20px 0;
+    border-color: black;
+
+}
+
+button.button-search {
+    position: fixed;
+    height: 20px;
+    left: 150px;
+    top: 37px;
+    border-right: 0px;
+    border-radius: 20px 0 0 20px;
+    background: rgba(228, 204, 157, 0.15);
+    cursor: pointer;
+    border-color: black;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    font: #636363;
+    font-family: 'Montserrat';
+}
+
+/*.Categories {
+    background-color: #E4CC9D;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+label#hamburger{
+    margin: 16px;
+    display: block;
+    background-color: #f4f7fe;    ;
+    width: 48px;
+    height: 48px;
+    left: 50px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  /* And his little children */
+label > span {
+    position: absolute;
+    left: 12px;
+    width: 24px;
+    height: 4px;
+    background-color: #E4CC9D;
+  }
+
+  label > span:first-child{
+    top: 14px;
+  }
+  
+  label > span:nth-child(2){
+    top: 22px;
+  }
+  
+  label > span:last-child{
+    top: 30px;
+  }
+  
+  input[type="checkbox"]{
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+  }
+  
+  input[type="checkbox"] + div{
+    position: fixed;
+    width: 10vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #E4CC9D;
+  }
+  
+  input[type="checkbox"] + div + label{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer;
+    z-index: 9;
+    background-color: black;
+    opacity: 0.2;
+  }
+  
+  /* From Left */
+  input[type="checkbox"].from-left + div, input[type="checkbox"].from-left + div + label{
+    transition: left 0.5s ease;
+    top: 0;
+  }
+  
+  input[type="checkbox"].from-left + div{
+    left: -10vw;
+  }
+  
+  input[type="checkbox"].from-left + div + label{
+    left: -100vw;
+  }
+  
+  input[type="checkbox"].from-left:checked + div, input[type="checkbox"].from-left:checked + div + label{
+    left: 0;
+  }
+  
+  /* From Right */
+  input[type="checkbox"].from-right + div, input[type="checkbox"].from-right + div + label{
+    transition: right 0.5s ease;
+    top: 0;
+  }
+  
+  input[type="checkbox"].from-right + div{
+    right: -10vw;
+  }
+  
+  input[type="checkbox"].from-right + div + label{
+    right: -100vw;
+  }
+  
+  input[type="checkbox"].from-right:checked + div, input[type="checkbox"].from-right:checked + div + label{
+    right: 0;
+  }
+  
+  /* From Top */
+  input[type="checkbox"].from-top + div, input[type="checkbox"].from-top + div + label{
+    transition: top 0.5s ease;
+    left: 0;
+  }
+  
+  input[type="checkbox"].from-top + div{
+    top: -100vh;
+  }
+  
+  input[type="checkbox"].from-top + div + label{
+    top: -100vw;
+  }
+  
+  input[type="checkbox"].from-top:checked + div, input[type="checkbox"].from-top:checked + div + label{
+    top: 0;
+  }
+  
+  /* From Bottom */
+  input[type="checkbox"].from-bottom + div, input[type="checkbox"].from-bottom + div + label{
+    transition: bottom 0.5s ease;
+    left: 0;
+  }
+  
+  input[type="checkbox"].from-bottom + div{
+    bottom: -100vh;
+  }
+  
+  input[type="checkbox"].from-bottom + div + label{
+    bottom: -100vw;
+  }
+  
+  input[type="checkbox"].from-bottom:checked + div, input[type="checkbox"].from-bottom:checked + div + label{
+    bottom: 0;
+  }
