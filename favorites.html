@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+   
+<!-- Menu start-->
+
+<div class="sidenav">
+  <a href="/index.html"><img src="Images/logo_CheapEats.png" alt="logo CheapEats" width="120px"></a>
+  <a href="/recipe.html">Recipes</a>
+  <a href="favorites.html">Favorites</a>
+  <a href="my_food.html">My food</a>
+  <a href="shopping_list.html">Shopping List</a>
+  <a href="/about.html" id="about-menu">About Us</a>
+</div>
+
+<div class="main">
+<!-- Load icon library / maybe change href-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+<!-- Menu end-->
+
+<h2>Favorites</h2>
+
+<div class="flex-container-favorite">
+  <div class="flex-item-quiche">
+        <div class="item-quiche"><a href="quiche.html">Quiche</a></div>
+        <div><button class="btn"><i class="fa fa-trash"></i></button> 
+          <!-- enable the button -->
+        </div>
+  </div> 
+  <div class="flex-item-carbonara">
+    <div class="item-carbonara"><p>Carbonara</p></div>
+    <div><button class="btn"><i class="fa fa-trash"></i></button></div>
+          <!-- enable the button -->
+    </div> 
+<div class="flex-item-soup">
+  <div class="item-soup"><p>Soup</p></div>
+  <div><button class="btn"><i class="fa fa-trash"></i></button></div>
+        <!-- enable the button -->
+</div>
+</body>
+</html>
