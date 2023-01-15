@@ -1,7 +1,49 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<label id="hamburger" for="main-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+    
+    <!-- Lateral Menu Trigger -->
+    <input type="checkbox" id="main-menu" class="from-left">
+    <!-- Lateral Menu -->
+    <div>
+      <ul>
+        <li>Home</li>
+        <li>Recipes</li>
+        <li>Favorites</li>
+        <li>My food</li>
+        <li>Shopping list</li>
+        <li>About Us</li>
+      </ul>
+    </div>
+    
+    <!-- Page overlay used to close the menu -->
+    <label for="main-menu"></label>
+
+<button type="submit" class="button-search"><img src="https://www.downloadclipart.net/large/magnifying-glass-png-no-background.png" alt="" width="15px"></button>
+<input type="texte" id="recipeSearch" name="recipeSearch" placeholder="Find a recipe..."></input>
+
+<h2>Categories</h2>
+
+<div class="flex-container">
+    <div class="Categories"><p>Breakfast</p></div>
+    <div class="Categories"><p>Starter</p></div>
+    <div class="Categories"><p>Main Dish</p></div>
+    <div class="Categories"><p>Snacks</p></div>
+</div>
+
+<h2>How to get started</h2>
+
 </body>
 </html>
