@@ -1,0 +1,40 @@
+[
+    {
+    "id":1,
+    "logo":"",
+    "name": "Rema",
+    "address":"Hammerichsgade 1, 1611 København",
+    "totalPrice":"75.20 dkk",
+    "baconPrice":"14.95 dkk",
+    "emmentalerPrice":"15 dkk",
+    "onionPrice":"9 dkk",
+    "crustPrice":"16.95 dkk",
+    "eggsPrice":"20 dkk"
+    },
+
+    {
+    "id":2,
+    "logo":"",
+    "name": "Coop",
+    "address":"Nørrebrogade 14 -16, 2200 København",
+    "totalPrice":"85.20 dkk",
+    "baconPrice":"24.95 dkk",
+    "emmentalerPrice":"10 dkk",
+    "onionPrice":"9.43 dkk",
+    "crustPrice":"18.95 dkk",
+    "eggsPrice":"17 dkk"
+    },
+
+    {
+    "id":3,
+    "logo":"",
+    "name": "SuperBrugsen",
+    "address":"Nørrebrogade 53 B, 2200 København",
+    "totalPrice":"125.20 dkk",
+    "baconPrice":"31.95 dkk",
+    "emmentalerPrice":"29 dkk",
+    "onionPrice":"12 dkk",
+    "crustPrice":"26.95 dkk",
+    "eggsPrice":"20 dkk"
+    }
+]

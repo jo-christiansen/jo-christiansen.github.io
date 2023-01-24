@@ -1,0 +1,12 @@
+{
+    "id":1,
+    "name": "Rema",
+    "address":"Hammerichsgade 1, 1611 København",
+    "googleAddress":"https://goo.gl/maps/zKhiSKDkc2d5fJPA8",
+    "totalPrice":"75.20 dkk",
+    "baconPrice":"14.95 dkk",
+    "emmentalerPrice":"15 dkk",
+    "onionPrice":"9 dkk",
+    "crustPrice":"16.95 dkk",
+    "eggsPrice":"20 dkk"
+    }
