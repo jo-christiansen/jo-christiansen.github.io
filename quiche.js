@@ -1,6 +1,5 @@
 let ingredientsQuiche = []
-const checkboxIngredients = document.getElementById("checkbox-ingredients")
-const addBtn = document.getElementById("add-btn")
+const checkboxIngredients = document.getElementById("checkbox-ingredients").addEventListener("")
 const ulEl = document.getElementById("ul-el")
 
 addBtn.addEventListener("click", function() {
